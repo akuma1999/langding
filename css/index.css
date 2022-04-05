@@ -71,7 +71,7 @@
       rgba(194, 145, 40, 0.6),
       rgba(228, 124, 6, 0.6)
     ),
-    url('/img/header_background.jpg');
+    url('img/header_background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -247,7 +247,7 @@
       rgba(186, 192, 196, 0.4),
       rgba(43, 61, 79, 0.6)
     ),
-    url('/img/background_menu.jpg');
+    url('img/background_menu.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

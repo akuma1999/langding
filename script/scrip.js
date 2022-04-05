@@ -4,63 +4,63 @@ const $$ = document.querySelectorAll.bind(document);
 const data_menu = [
   {
     name: 'Bánh tráng trộn',
-    url: '/img/menu/banhtrang.jpg',
+    url: 'img/menu/banhtrang.jpg',
   },
   {
     name: 'Bò viên',
-    url: '/img/menu/bovien.jpg',
+    url: 'img/menu/bovien.jpg',
   },
   {
     name: 'Mì xào bò',
-    url: '/img/menu/mixaobo.jpg',
+    url: 'img/menu/mixaobo.jpg',
   },
   {
     name: 'Buger',
-    url: '/img/menu/buger.jpg',
+    url: 'img/menu/buger.jpg',
   },
   {
     name: 'Trái cây dĩa',
-    url: '/img/menu/traicay.jpg',
+    url: 'img/menu/traicay.jpg',
   },
   {
     name: 'Cafe americano',
-    url: '/img/menu/americano.jpg',
+    url: 'img/menu/americano.jpg',
   },
   {
     name: 'Bạc xĩu',
-    url: '/img/menu/bacxiu.jpg',
+    url: 'img/menu/bacxiu.jpg',
   },
   {
     name: 'Cafe sữa',
-    url: '/img/menu/cafesua.jpg',
+    url: 'img/menu/cafesua.jpg',
   },
   {
     name: 'Cafe cappuccino',
-    url: '/img/menu/cappuccino.jpg',
+    url: 'img/menu/cappuccino.jpg',
   },
   {
     name: 'Cafe mocha',
-    url: '/img/menu/mocha.jpg',
+    url: 'img/menu/mocha.jpg',
   },
   {
     name: 'Sinh tố bơ',
-    url: '/img/menu/sinh-to-bo.jpg',
+    url: 'img/menu/sinh-to-bo.jpg',
   },
   {
     name: 'Sinh tố chuối',
-    url: '/img/menu/sinh-to-chuoi.jpg',
+    url: 'img/menu/sinh-to-chuoi.jpg',
   },
   {
     name: 'Sinh tố chuối<br/>socola',
-    url: '/img/menu/sinh-to-chuoi-socola.png',
+    url: 'img/menu/sinh-to-chuoi-socola.png',
   },
   {
     name: 'Sinh tố mít',
-    url: '/img/menu/sinh-to-mit.jpg',
+    url: 'img/menu/sinh-to-mit.jpg',
   },
   {
     name: 'Sinh tố nho',
-    url: '/img/menu/sinh-to-nho.jpg',
+    url: 'img/menu/sinh-to-nho.jpg',
   },
 ];
 
@@ -84,19 +84,19 @@ const quote3 = $('.quote__item2');
 
 function render(num) {
   if (quote1 && quote2 && quote3) {
-    quote1.innerHTML = `      <img src="/img/quote/${num}.jpg " alt="" srcset="" />
+    quote1.innerHTML = `      <img src="img/quote/${num}.jpg " alt="" srcset="" />
     <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
       Necessitatibus enim, facere laborum, nam vitae quam sapiente adipisci
       deserunt tenetur, at quibusdam qui saepe velit delectus quidem eos
       repellendus voluptatibus cumque?</span>`;
-    quote2.innerHTML = `      <img src="/img/quote/${
+    quote2.innerHTML = `      <img src="img/quote/${
       num + 1
     }.jpg " alt="" srcset="" />
       <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
         Necessitatibus enim, facere laborum, nam vitae quam sapiente adipisci
         deserunt tenetur, at quibusdam qui saepe velit delectus quidem eos
         repellendus voluptatibus cumque?</span>`;
-    quote3.innerHTML = `      <img src="/img/quote/${
+    quote3.innerHTML = `      <img src="img/quote/${
       num + 2
     }.jpg " alt="" srcset="" />
         <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
